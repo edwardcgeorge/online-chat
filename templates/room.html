@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="/socket.io/socket.io.js"></script>
+        <!-- <script src="/path/to/room.js"></script> -->
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../src/app.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="roomName" content="{{roomName}}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>Room: {{roomName}}</title>
+    </head>
+    <body>
+    <div data-role="content" class="container" role="main">
+        <div class="rows">
+            <h2 id='p1'>Room {{roomName}}</h2>
+            <div class="well col-lg-8" id="messageArea">
+                <ul id="messageBox">
+                </ul>
+            </div>
+            <h4 class="col-lg-2 col-md-offset-2" id='peopleCount'></h4>
+            <div class="well col-lg-2 col-md-offset-2" id="memberArea">
+                <span class="label label-success">Current Member</span>
+                <br><br>
+                <ul id="memberBox">
+                </ul>
+            </div>
+            <div id="inputArea">
+                <form method="POST" action="/{{roomName}}/messages" id="messageForm">
+                    <input type="text" name="message" id="messageField">
+                    <input type="hidden" name="nickname" id="nicknameField" value="">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <a href="/"><button type="button" class="btn btn-info" id="return">Return</button></a>
+            <button type="button" class="btn btn-info" id="Change" onclick="change()">Change Nickname</button>
+        </div>
+    </div>
+    </body>
+</html>

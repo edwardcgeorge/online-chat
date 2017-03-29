@@ -1,0 +1,19 @@
+h2 {text-align: center;}
+#messageArea {height: 400px;overflow: scroll;}
+#messageField {width: 50%;border-radius: 5%;}
+#inputArea {text-align: center;}
+#messageBox{width:100%;overflow:hidden;}
+#messageBox li{width:100%;list-style: none;overflow:hidden;margin-bottom:2em;}
+#messageBox li.own .user{float:right;margin-left:10px;}
+#messageBox li.other .user{float:left;margin-right:10px;}
+#messageBox li.own .reply-content-box{float:right;width: 40%; margin-right:60px;}
+#messageBox li.other .reply-content-box{float:left;width: 40%; margin-left:60px;}
+.user-name{color:#999;margin-top:5px;display:block;text-align:center;width:50px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.reply-time{color:#e1912d;font-size:.85em;display:inline-block;width:100%;}
+#messageBox li.own .reply-time{text-align:right;}
+#messageBox li.other .reply-time{text-align:left;}
+#messageBox li.own .reply-content{border:1px solid #fcfcfc;padding:.6em;background-color:#bbd2f7;border-radius:4px;box-shadow:0 0 5px #ccc; position:relative;}
+#messageBox li.other .reply-content{border:1px solid #fcfcfc;padding:.6em;background-color:#efadaa;border-radius:4px;box-shadow:0 0 5px #ccc; position:relative;}
+#messageBox li.own .arrow{width:0;height:0;line-height:0;font-size:0;border-color:transparent transparent transparent #fff;border-width:6px;border-style:dashed dashed dashed solid;display:block;position:absolute;top:8px;right:-12px;z-index:999;}
+#messageBox li.other .arrow{width:0;height:0;line-height:0;font-size:0;border-color:transparent #fff transparent transparent;border-width:6px;border-style:dashed solid dashed dashed;display:block;position:absolute;top:8px;left:-12px;z-index:999;}
+#messageBox li span.ale{font-size: 15px;}

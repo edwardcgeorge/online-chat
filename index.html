@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style src="./css/style.css"></style>
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Chatroom</h2>
+            <br>
+            <p><span class="label label-success">Open rooms</span></p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="list-group" id="roomBox">
+                    </div>
+                    <div><a href="/new"><button type="button" class="btn btn-info" id="button">Enter a new room</button></a>
+                </div>
+            </div>
+        </div>
+        <script src="/src/index.js"></script>
+    </body>
+</html>
