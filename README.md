@@ -19,7 +19,7 @@ Enter this application through `http://localhost:8080`
 
 ### Host on AWS guide
 
-To host on AWS, first launch an AWS EC2 instance using the *MEAN by Bitnami*, then SSH to that instance using:
+To host on AWS, first launch an *AWS EC2* instance using the *MEAN by Bitnami*, then SSH to that instance using:
 
     ssh -i path/to/ssh/key.pem bitnami@{public ip}
 
