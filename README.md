@@ -1,4 +1,4 @@
-# online-chatting
+# online-chat
 
 This is a multi-person live chat web app.
 * Webpage developed by HTML/CSS & Bootstrap, server by express.js
