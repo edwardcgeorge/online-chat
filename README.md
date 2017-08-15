@@ -23,7 +23,7 @@ To host on AWS, first launch an *AWS EC2* instance using the *MEAN by Bitnami*, 
 
     ssh -i path/to/ssh/key.pem bitnami@{public ip}
 
-Install OuterCircle on host server using:
+Install on host server using:
 
     git clone https://github.com/edwardcgeorge/online-chatting.git
     cd online-chatting
