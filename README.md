@@ -1,9 +1,14 @@
 # online-chatting
-muilti-person online chatting tool
+
+This is a muilti-person online chatting tool.
+* Webpage developed by HTML/CSS & Bootstrap, server by express.js
+* Using socket.io for real-time communication
+
 Demo site: <http://ec2-34-211-12-188.us-west-2.compute.amazonaws.com>
 
-Local install guide
-=====
+###Local install guide
+
+To install on local machine, run these commands:
 ```
 git clone https://github.com/edwardcgeorge/online-chatting.git
 cd online-chatting
@@ -12,8 +17,7 @@ npm start
 ```
 Enter this application through `http://localhost:8080`
 
-Host on AWS guide
-=====
+###Host on AWS guide
 
 To host on AWS, first launch an AWS EC2 instance using the *MEAN by Bitnami*, then SSH to that instance using:
 
