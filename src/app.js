@@ -19,7 +19,7 @@ $(document).ready(function(){
     // handle incoming messages
     var messageForm = $('#messageForm').submit(sendMessage);
     Onickname = setNickName();
-    var memberList = new Array();
+    var memberList = [];
     var count;
     var isFirst = true;
     socket.on('message', function(nickname, message, time, id){
@@ -86,11 +86,14 @@ $(document).ready(function(){
     socket.emit('join', meta('roomName'), Onickname, function(messages, members, nums){
         // process the list of messages the server sent back
         //nums is current numsof people currently active in this room
+        console.log("messages get back: "+messages+" "+members+" "+nums);
         var res = messages;
         var ul = $('#messageBox');
         $.each(res, function(i) {
+            var time = res[i].time;
+            var formatTime= time.getFullYear() + "-" + (time.getMonth() + 1) + "-" + time.getDate() + " " +  time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
             var li = $(' <li class="other"><p class="user"><span class="user-name">'+res[i].nickname+'</span></p>'
-            +'<div class="reply-content-box"><span class="reply-time">'+res[i].time+'</span>'
+            +'<div class="reply-content-box"><span class="reply-time">'+formatTime+'</span>'
             +'<div class="reply-content pr">'
             +'<span class="arrow">&nbsp;</span>'+res[i].body+'</div></div></li>');
             ul.append(li);
