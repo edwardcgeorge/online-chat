@@ -9,6 +9,7 @@ function getRoom() {
       async: false
     }).responseText;
     var res = JSON.parse(content);
+    console.log(res);
     var ul = $('#roomBox');
     $.each(res, function(i) {
         // console.log(res[i].body);
