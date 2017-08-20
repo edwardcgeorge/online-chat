@@ -15,7 +15,8 @@ var roomBox = [];
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-mongoose.connect('mongodb://root:wqXAExX6Z44o@/opt/bitnami/mongodb/tmp/mongodb-27017.sock/admin');
+//Todo: add your own mongodb password
+mongoose.connect('mongodb://root:[mongodbpassword]@/opt/bitnami/mongodb/tmp/mongodb-27017.sock/admin');
 
 var messageSchema = new Schema({
     room: {type: String, required: true},
