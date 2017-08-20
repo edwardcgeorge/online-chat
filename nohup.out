@@ -1,0 +1,155 @@
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (/home/bitnami/online-chatting/server.js:158:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+npm ERR! Linux 3.13.0-119-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! chatroom@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatroom@1.0.0 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the chatroom package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs chatroom
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls chatroom
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/online-chatting/npm-debug.log
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+(node:1812) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (/home/bitnami/online-chatting/server.js:198:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+npm ERR! Linux 3.13.0-119-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! chatroom@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatroom@1.0.0 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the chatroom package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs chatroom
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls chatroom
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/online-chatting/npm-debug.log
+
+> chatroom@1.0.0 start /home/bitnami/online-chatting
+> node server.js
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (/home/bitnami/online-chatting/server.js:198:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+npm ERR! Linux 3.13.0-119-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! chatroom@1.0.0 start: `node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatroom@1.0.0 start script 'node server.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the chatroom package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node server.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs chatroom
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls chatroom
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/online-chatting/npm-debug.log

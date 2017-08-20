@@ -14,7 +14,12 @@ app.set('view engine', 'html');
 var roomBox = [];
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+<<<<<<< HEAD
 mongoose.connect('mongodb://localhost/chatroom');
+=======
+
+mongoose.connect('mongodb://root:wqXAExX6Z44o@/opt/bitnami/mongodb/tmp/mongodb-27017.sock/admin');
+>>>>>>> 0d0cda65451c6b767d8dee50d7195fc6c655b65e
 
 var messageSchema = new Schema({
     room: {type: String, required: true},

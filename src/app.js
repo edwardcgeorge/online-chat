@@ -91,7 +91,7 @@ $(document).ready(function(){
         var ul = $('#messageBox');
         $.each(res, function(i) {
             var time = new Date(res[i].time);
-            console.log(time);
+            // console.log(time);
             var formatTime= time.getFullYear() + "-" + (time.getMonth() + 1) + "-" + time.getDate() + " " +  time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
             var li = $(' <li class="other"><p class="user"><span class="user-name">'+res[i].nickname+'</span></p>'
             +'<div class="reply-content-box"><span class="reply-time">'+formatTime+'</span>'
