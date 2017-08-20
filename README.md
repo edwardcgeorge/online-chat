@@ -23,6 +23,7 @@ To host on AWS, first launch an *AWS EC2* instance using the *MEAN by Bitnami*, 
 
     ssh -i path/to/ssh/key.pem bitnami@{public ip}
 
+First, open *server.js* and add **your own mongodb password** on host server to line 19
 Install on host server using:
 
     git clone https://github.com/edwardcgeorge/online-chatting.git
