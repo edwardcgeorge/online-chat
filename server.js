@@ -14,7 +14,7 @@ app.set('view engine', 'html');
 var roomBox = [];
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-
+var port = process.env.PORT || 8080;
 //Todo: add your own mongodb password
 mongoose.connect('mongodb://root:[mongodbpassword]@/opt/bitnami/mongodb/tmp/mongodb-27017.sock/admin');
 
@@ -195,4 +195,4 @@ function generateRoomIdentifier() {
   return result;
 }
 
-server.listen(8080);
+server.listen(port);
