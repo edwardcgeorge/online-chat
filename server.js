@@ -16,7 +16,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var port = process.env.PORT || 8080;
 //Todo: add your own mongodb password
-mongoose.connect('mongodb://root:[mongodbpassword]@/opt/bitnami/mongodb/tmp/mongodb-27017.sock/admin');
+mongoose.connect('mongodb://heroku_g0mxqr98:hnlk3p9gj3sqjf5777kvo3frn2@ds115035.mlab.com:15035/heroku_g0mxqr98');
 
 var messageSchema = new Schema({
     room: {type: String, required: true},
