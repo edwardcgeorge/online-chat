@@ -4,7 +4,7 @@ This is a multi-person live chat web app.
 * Webpage developed by HTML/CSS & Bootstrap, server by express.js
 * Using socket.io for real-time communication
 
-Demo site: <http://ec2-34-211-12-188.us-west-2.compute.amazonaws.com>
+Demo site: <https://safe-reef-43552.herokuapp.com>
 
 ### Local install guide
 
